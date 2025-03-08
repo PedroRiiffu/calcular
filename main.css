@@ -1,0 +1,22 @@
+form {
+    margin-top: 40px;
+}
+
+button{
+    background-color: brown;
+    border: none;
+    text-transform: uppercase;
+    color: burlywood;
+    font-weight: bolder;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+input, button {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 100%;
+    resize: none;
+}
