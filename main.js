@@ -4,6 +4,7 @@ const form = document.getElementById('form-calcular');
 
 form.addEventListener('submit',function(e) {
     e.preventDefault();
+    compararNumero()
 } )
 
 function compararNumero(){
@@ -18,13 +19,12 @@ function compararNumero(){
             alert("os numeros sao iguais.");
         } else if (numberX > numberY) {
             alert("o primeiro numero é maior");
-        } else (numberX < numberY) {
+        } else if (numberX < numberY) {
             alert ("o segundo numero é maior");
-            alert("porfavor, digite numeros inteiros validos")
         }
-        } 
-        } 
-    }
+        
+    } 
+}
 
     console.log(form);
 
